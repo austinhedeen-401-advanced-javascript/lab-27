@@ -1,0 +1,48 @@
+$color1: rgba(255, 205, 178, 1);
+$color2: rgba(255, 180, 162, 1);
+$color3: rgba(229, 152, 155, 1);
+$color4: rgba(181, 131, 141, 1);
+$color5: rgba(109, 104, 117, 1);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $color5;
+  color: $color1;
+  padding: 1rem 4rem;
+  font-size: 16pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+#buttons {
+  margin: 2rem 0;
+}
+
+button {
+  background: $color5;
+  color: $color1;
+  font-size: 16pt;
+  border: 2px solid $color4;
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  margin: 1rem;
+}
+
+button:hover {
+  background: $color3;
+  color: $color5;
+}
+
+button:active {
+  background: $color4;
+  color: $color5;
+}

@@ -6,6 +6,9 @@ import Counter from './components/counter/Counter';
 
 import './app.scss';
 
+/**
+ * Root-level application component.
+ */
 class App extends React.Component {
   render() {
     return (

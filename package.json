@@ -20,14 +20,17 @@
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-jest": "^22.17.0"
+    "eslint-plugin-jest": "^22.17.0",
+    "react-styleguidist": "^9.1.16"
   },
   "scripts": {
     "lint": "eslint '**/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
   },
   "browserslist": {
     "production": [

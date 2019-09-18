@@ -7,11 +7,8 @@
 ### Links and Resources
 * [submission PR](https://github.com/austinhedeen-401-advanced-javascript/lab-27/pull/1)
 * [travis](https://travis-ci.com/austinhedeen-401-advanced-javascript/lab-27)
-* [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [Netlify deployment](https://boring-lovelace-9ebdd8.netlify.com/)
+* [Amplify deployment](https://react-testing.d238kxf281v07k.amplifyapp.com/)
 
 #### Running the app
 * `npm start`
@@ -20,4 +17,4 @@
 * `npm test`
 
 #### UML
-Link to an image of the UML for your application and response to events
+![](assets/lab-27.png)

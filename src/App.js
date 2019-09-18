@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
-import Counter from './components/counter/counter';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Counter from './components/counter/Counter';
 
 class App extends React.Component {
   render() {
